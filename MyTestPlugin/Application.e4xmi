@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_LZyFQPjhEeS4INLFmKBoTQ" elementId="Main.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_xjyFsPjiEeS4INLFmKBoTQ" elementId="main.trimmedwindow.myMainWindow" label="My Main Window" iconURI="platform:/plugin/MyTestPlugin/icons/database_key.png">
+    <tags>shellMaximized</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_eSmMEPjmEeS4INLFmKBoTQ" elementId="main.perspectivestack.0" selectedElement="_fzQGgPjmEeS4INLFmKBoTQ">
+      <children xsi:type="advanced:Perspective" xmi:id="_fzQGgPjmEeS4INLFmKBoTQ" elementId="base.perspective" label="My Perspective">
+        <tags>Perspective</tags>
+        <tags>categoryTag:General</tags>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_9GY-8ASjEeWsOfMsd1D-vg" elementId="mytestplugin.partsashcontainer.0" selectedElement="_rgjbIPjmEeS4INLFmKBoTQ" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_Z7DoMBINEeWOUd209rXN5w" elementId="mytestplugin.partstack.0" containerData="3000">
+            <children xsi:type="advanced:Placeholder" xmi:id="_b9SsIPjnEeS4INLFmKBoTQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_HSjwMPjsEeS4INLFmKBoTQ"/>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_nfKVIBIHEeWOUd209rXN5w" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_A4D5UPjpEeS4INLFmKBoTQ" closeable="true"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_rgjbIPjmEeS4INLFmKBoTQ" elementId="main.partsashcontainer.0" containerData="6000" selectedElement="_WJObwPjnEeS4INLFmKBoTQ">
+            <children xsi:type="basic:PartStack" xmi:id="_yhH7EAexEeW6O7BZROfT9Q" elementId="mytestplugin.partstack.1">
+              <children xsi:type="advanced:Placeholder" xmi:id="_h4cM8AgyEeWIw5yi8gNNCA" elementId="org.eclipse.ui.console.ConsoleView" ref="_lqZboAgyEeWIw5yi8gNNCA"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_WJObwPjnEeS4INLFmKBoTQ" elementId="main.partstack.0" containerData="3400">
+              <tags>newtablook</tags>
+              <tags>org.eclipse.e4.primaryNavigationStack</tags>
+              <children xsi:type="basic:Part" xmi:id="_I7DBgP_-EeSiltWPqTw7DQ" elementId="mytestplugin.part.tables" contributionURI="bundleclass://MyTestPlugin/mytestplugin.views.TablesPart" label="Tables" iconURI="platform:/plugin/MyTestPlugin/icons/table_edit.png"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_C6ij4PjoEeS4INLFmKBoTQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_YIqnIPjrEeS4INLFmKBoTQ"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_LF9rgPx9EeSaP4xb7oc6tQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_UQwnIPx9EeSaP4xb7oc6tQ" elementId="main.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QEAAUBIJEeWOUd209rXN5w" elementId="mytestplugin.handledmenuitem.save" label="Save" iconURI="platform:/plugin/org.eclipse.ui/icons/full/dtool16/save_edit_floppy.png" command="_LNDfgBIJEeWOUd209rXN5w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QZg9UBIJEeWOUd209rXN5w" elementId="mytestplugin.handledmenuitem.saveAll" label="Save All" iconURI="platform:/plugin/org.eclipse.ui/icons/full/dtool16/saveall_edit.png" command="_NuxOUBIJEeWOUd209rXN5w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_OcMxgBIIEeWOUd209rXN5w" elementId="org.eclipse.ui.file.exit" label="Exit" command="_P3x-sBIIEeWOUd209rXN5w"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_WFpFIPx9EeSaP4xb7oc6tQ" elementId="main.menu.edit" label="Edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_2_a2oBIKEeWOUd209rXN5w" elementId="mytestplugin.handledmenuitem.undo" label="Undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" command="_lKUvQBIIEeWOUd209rXN5w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_xACZABIIEeWOUd209rXN5w" elementId="mytestplugin.handledmenuitem.redo" label="Redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" command="_oGPt0BIIEeWOUd209rXN5w"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_OIfrABILEeWOUd209rXN5w" elementId="mytestplugin.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_t4QvwBIIEeWOUd209rXN5w" elementId="mytestplugin.handledmenuitem.copy" label="Copy" iconURI="platform:/plugin/org.eclipse.ui/icons/full/dtool16/copy_edit.png" command="_rHyzQBIIEeWOUd209rXN5w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Df94ABIJEeWOUd209rXN5w" elementId="mytestplugin.handledmenuitem.paste" label="Paste" iconURI="platform:/plugin/org.eclipse.ui/icons/full/dtool16/paste_edit.png" command="_BtcxgBIJEeWOUd209rXN5w"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_TlSq4BILEeWOUd209rXN5w" elementId="mytestplugin.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_SluEQBILEeWOUd209rXN5w" elementId="fdsafdsafdsaf" label="Delete" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/delete_edit.png" command="_QifoQBILEeWOUd209rXN5w"/>
+      </children>
+    </mainMenu>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_A4D5UPjpEeS4INLFmKBoTQ" elementId="org.eclipse.ui.editorss" label="Editor">
+      <children xsi:type="basic:PartStack" xmi:id="_p6F20PjqEeS4INLFmKBoTQ" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+      </children>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_YIqnIPjrEeS4INLFmKBoTQ" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_jQ0nUPjrEeS4INLFmKBoTQ" elementId="org.eclipse.ui.views.PropertySheet">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_Hng-INSjEeGwXp2p959l3w" elementId="org.eclipse.ui.views.PropertySheet"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_HSjwMPjsEeS4INLFmKBoTQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif">
+      <tags>View</tags>
+      <menus xmi:id="_oW-MUPjsEeS4INLFmKBoTQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_xKFAsPjsEeS4INLFmKBoTQ" elementId="org.eclipse.ui.navigator.ProjectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+        <tags>popup:org.eclipse.ui.navigator.ProjectExplorer#PopupMenu</tags>
+      </menus>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_lqZboAgyEeWIw5yi8gNNCA" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console//icons/full/cview16/console_view.gif"/>
+    <trimBars xmi:id="_5wofABHTEeWnSZVmT81UYg" elementId="org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="_7-PmEBHTEeWnSZVmT81UYg" elementId="mytestplugin.toolbar.1">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-AApgBHTEeWnSZVmT81UYg" elementId="org.eclipse.ui.file.saveAll" label="Save" iconURI="platform:/plugin/org.eclipse.ui/icons/full/dtool16/save_edit_floppy.png" command="_LNDfgBIJEeWOUd209rXN5w"/>
+      </children>
+    </trimBars>
+  </children>
+  <rootContext xmi:id="_qIIsIPjlEeS4INLFmKBoTQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_uGjpgPjlEeS4INLFmKBoTQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_xc2P4PjlEeS4INLFmKBoTQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <descriptors xmi:id="_oIvGkPjtEeS4INLFmKBoTQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" label="Scripts" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif" category="org.eclipse.e4.primaryNavigationStack" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_tV2EoPjtEeS4INLFmKBoTQ" elementId="org.eclipse.ui.console.ConsoleView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console//icons/full/cview16/console_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_4V_YUPjtEeS4INLFmKBoTQ" elementId="org.eclipse.ui.views.ProgressView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/pview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_8IINMPjtEeS4INLFmKBoTQ" elementId="org.eclipse.ui.views.PropertySheet" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views//icons/full/eview16/prop_ps.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <commands xmi:id="_P3x-sBIIEeWOUd209rXN5w" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_lKUvQBIIEeWOUd209rXN5w" elementId="org.eclipse.ui.edit.undo" commandName="Undo"/>
+  <commands xmi:id="_oGPt0BIIEeWOUd209rXN5w" elementId="org.eclipse.ui.edit.redo" commandName="Redo"/>
+  <commands xmi:id="_pqcrgBIIEeWOUd209rXN5w" elementId="org.eclipse.ui.edit.cut" commandName="Cut"/>
+  <commands xmi:id="_rHyzQBIIEeWOUd209rXN5w" elementId="org.eclipse.ui.edit.copy" commandName="Copy"/>
+  <commands xmi:id="_BtcxgBIJEeWOUd209rXN5w" elementId="org.eclipse.ui.edit.paste" commandName="Paste"/>
+  <commands xmi:id="_LNDfgBIJEeWOUd209rXN5w" elementId="org.eclipse.ui.file.save" commandName="Save"/>
+  <commands xmi:id="_NuxOUBIJEeWOUd209rXN5w" elementId="org.eclipse.ui.file.saveAll" commandName="Save All"/>
+  <commands xmi:id="_QifoQBILEeWOUd209rXN5w" elementId="org.eclipse.ui.edit.delete" commandName="Delete"/>
+  <addons xmi:id="_LZyFQfjhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_LZyFQvjhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_LZyFQ_jhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_LZyFRPjhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_LZyFRfjhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_LZyFRvjhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_LZysUPjhEeS4INLFmKBoTQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
